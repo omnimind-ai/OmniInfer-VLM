@@ -1,5 +1,26 @@
-# OmniInfer-VLM
+<p align="center">
+  <picture>
+    <img alt="OmniInfer-VLM" src="./assets/OmniInfer-VLM-logo.png" width="60%">
+  </picture>
+</p>
 
+<h3 align="center">
+High-Performance Multimodal Embedding Generation with HTP Acceleration
+</h3>
+
+<p align="center">
+| 
+<a href="#build-instructions"><b>Build</b></a> 
+| 
+<a href="#usage"><b>Usage</b></a> 
+| 
+<a href="#performance-benchmarks"><b>Benchmarks</b></a> 
+| 
+<a href="https://github.com/omnimind-ai/OmniOp-NPU"><b>Backend (OmniOp)</b></a> 
+|
+</p>
+
+---
 **OmniInfer-VLM** is a specialized inference framework designed to generate embedding layer data for Vision-Language Models (VLMs). It is optimized for high-performance deployment, featuring support for Qualcomm's Hexagon Tensor Processor (HTP) via the [OmniOp-NPU](https://github.com/omnimind-ai/OmniOp-NPU) backend, alongside standard CPU execution.
 
 This project streamlines the pipeline for multimodal inference, allowing efficient processing of image and text inputs on both Linux (CPU) and Android (NPU) platforms.
@@ -124,3 +145,24 @@ This project is licensed under the Apache License, Version 2.0.
 This repository contains code derived from the following open-source project:
 
 - <Upstream Project Name> (https://github.com/ggml-org/llama.cpp), licensed under the MIT License
+
+## Community & Support
+
+Join our community to stay updated with the latest VLM optimization techniques and mobile deployment guides.
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./assets/wechat_qr.png" alt="WeChat Group" width="220"/><br/>
+      <b>WeChat Group</b>
+    </td>
+    <td align="center">
+       <a href="https://github.com/omnimind-ai/OmniInfer-VLM/issues">
+        <img src="https://img.shields.io/badge/GitHub-Issues-blue?logo=github" alt="GitHub Issues"/>
+      </a><br/>
+      <b>Technical Support</b>
+    </td>
+  </tr>
+</table>
+
+---
